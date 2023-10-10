@@ -1,6 +1,12 @@
-def div_por_partes(n, m):
-    return f"la división de {n} entre {m} da un cociente {n//m} y un resto {n%m}"
+def cociente(n, m):
+    return n//m
+
+
+def resto(n, m):
+    return n % m
 
 
 if __name__ == "__main__":
-    print(div_por_partes(float(input("Introduce un número a dividir: ")),float(input("Introduce un número que divida: "))))
+    uno = int(input("Dime un dividendo: "))
+    otro = int(input("Dime un divisor: "))
+    print(f"la división de {uno} entre {otro} da un cociente {cociente(uno, otro)} y un resto {resto(uno, otro)}")

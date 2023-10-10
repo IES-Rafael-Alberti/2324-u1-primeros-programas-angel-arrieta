@@ -1,8 +1,5 @@
-from src.Ej_2_8 import suman , sumar
+from src.Ej_2_8 import suman
 
 
 def test_suman():
-    assert suman(1, 2,) == 1 + 2
-
-def test_sumar():
-    assert sumar(3, 4) == f"El resultado da {3 + 4}"
+    assert suman(1, 2,) == 3

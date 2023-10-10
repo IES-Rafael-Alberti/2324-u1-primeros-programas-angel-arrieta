@@ -1,6 +1,7 @@
 def sustraer_iva(precio_final):
-    return f"El precio inicial es {precio_final / 110 * 100}"
+    return round(precio_final / 110 * 100, 2)
 
 
 if __name__ == "__main__":
-    print(sustraer_iva(float(input("Dime el precio final del producto (IVA 10% aplicado): "))))
+    precio = float(input("Dime el precio final del producto (IVA 10% aplicado): "))
+    print(f"El precio inicial es {sustraer_iva(precio)}")

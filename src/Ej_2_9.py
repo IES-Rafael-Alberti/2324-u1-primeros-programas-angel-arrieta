@@ -1,6 +1,7 @@
 def sumar(uno, dos, tres):
-    return f"El resultado da {uno + dos + tres}"
+    return uno + dos + tres
 
 
 if __name__ == "__main__":
-    print(sumar(float(input("Introduce un número: ")), float(input("Introduce otro número: ")), float(input("Introduce otro número más: "))))
+    numero = sumar(float(input("Introduce un número: ")), float(input("Otro: ")), float(input("Otro más: ")))
+    print(f"El resultado da {numero}")

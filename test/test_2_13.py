@@ -1,5 +1,10 @@
-from src.Ej_2_13 import div_por_partes
+from src.Ej_2_13 import cociente, resto
 
 
-def test_div_por_partes():
-    assert div_por_partes(7,3) == f"la división de 7 entre 3 da un cociente 2 y un resto 1"
+def test_cociente():
+    assert cociente(7,3) == 2
+
+
+def test_resto():
+    assert resto(7,3) == 1
+
