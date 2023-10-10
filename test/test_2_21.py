@@ -1,4 +1,4 @@
-from ..src.Ej_2_21 import invertir
+from src.Ej_2_21 import invertir
 
 
 def test_invertir():

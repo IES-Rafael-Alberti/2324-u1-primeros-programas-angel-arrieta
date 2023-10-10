@@ -1,4 +1,4 @@
-from ..src.Ej_2_25 import fechado
+from src.Ej_2_25 import fechado
 
 
 def test_fechado():

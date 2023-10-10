@@ -1,4 +1,4 @@
-from ..src.Ej_2_16 import barras_pasadas
+from src.Ej_2_16 import barras_pasadas
 
 
 def test_barras_pasadas():

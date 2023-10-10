@@ -1,4 +1,4 @@
-from ..src.Ej_2_13 import div_por_partes
+from src.Ej_2_13 import div_por_partes
 
 
 def test_div_por_partes():

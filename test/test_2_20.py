@@ -1,4 +1,4 @@
-from ..src.Ej_2_20 import telefono
+from src.Ej_2_20 import telefono
 
 
 def test_telefono():

@@ -1,4 +1,4 @@
-from ..src.Ej_2_6 import sustraer_iva
+from src.Ej_2_6 import sustraer_iva
 
 
 def test_sustraer_iva():

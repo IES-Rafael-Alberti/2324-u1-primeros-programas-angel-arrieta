@@ -1,4 +1,4 @@
-from ..src.Ej_2_17 import nombrar
+from src.Ej_2_17 import nombrar
 
 
 def test_():

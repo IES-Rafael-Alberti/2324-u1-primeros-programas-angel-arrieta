@@ -1,4 +1,4 @@
-from ..src.Ej_2_11 import sumatorio
+from src.Ej_2_11 import sumatorio
 
 
 def test_sumatorio():

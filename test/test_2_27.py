@@ -1,4 +1,4 @@
-from ..Ej_2_27 import calculadora_producto
+from src.Ej_2_27 import calculadora_producto
 
 
 def test_calculadora_producto():

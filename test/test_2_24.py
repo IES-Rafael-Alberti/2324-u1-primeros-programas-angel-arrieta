@@ -1,4 +1,4 @@
-from ..src.Ej_2_24 import desglose
+from src.Ej_2_24 import desglose
 
 
 def test_desglose():

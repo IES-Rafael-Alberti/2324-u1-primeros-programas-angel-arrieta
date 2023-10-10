@@ -1,4 +1,4 @@
-from ..src.Ej_2_7 import sumar
+from src.Ej_2_7 import sumar
 
 
 def test_sumar():
