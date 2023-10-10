@@ -1,6 +1,7 @@
 def conv_a_Fahrenheit(celsius):
-    return f"{celsius}ºC son {celsius * 1.8 + 32}ºF"
+    return celsius * 1.8 + 32
 
 
 if __name__ == "__main__":
-    print(conv_a_Fahrenheit(float(input("Dime una temperatura en ºC: "))))
+    celsius = float(input("Dime una temperatura en ºC: "))
+    print(f"{celsius}ºC son {conv_a_Fahrenheit(celsius)}ºF")

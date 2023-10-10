@@ -1,4 +1,4 @@
-from ..Ej_2_3 import cuentas
+from src.Ej_2_3 import cuentas
 
 
 def test_cuentas():
