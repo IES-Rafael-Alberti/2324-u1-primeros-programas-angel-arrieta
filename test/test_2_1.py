@@ -1,4 +1,4 @@
-from ..src.Ej_2_1 import bienvenida
+from src.Ej_2_1 import bienvenida
 
 
 def test_bienvenida():

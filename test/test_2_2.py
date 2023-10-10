@@ -1,5 +1,5 @@
-from ..src.Ej_2_2 import importe
+from src.Ej_2_2 import importe
 
 
 def test_importe():
-    assert importe(6, 10) == "Importe total: 60"
+    assert importe(6, 10) == 60
