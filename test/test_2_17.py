@@ -1,4 +1,4 @@
-from Ejercicios_DAW_Python.Primeros_ejercicios.src.Ej_2_17 import nombrar
+from ..src.Ej_2_17 import nombrar
 
 
 def test_():

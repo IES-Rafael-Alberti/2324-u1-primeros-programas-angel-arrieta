@@ -1,4 +1,4 @@
-from Ejercicios_DAW_Python.Primeros_ejercicios.src.Ej_2_5 import calcular_iva
+from ..src.Ej_2_5 import calcular_iva
 
 
 def test_calcular_iva():

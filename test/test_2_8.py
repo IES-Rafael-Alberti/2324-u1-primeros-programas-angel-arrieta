@@ -1,4 +1,4 @@
-from Ejercicios_DAW_Python.Primeros_ejercicios.src.Ej_2_8 import suman , sumar
+from ..src.Ej_2_8 import suman , sumar
 
 
 def test_suman():

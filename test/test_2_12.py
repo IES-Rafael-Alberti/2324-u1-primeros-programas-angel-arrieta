@@ -1,4 +1,4 @@
-from Ejercicios_DAW_Python.Primeros_ejercicios.src.Ej_2_12 import calculadora_imc
+from ..src.Ej_2_12 import calculadora_imc
 
 
 def test_calculadora_imc():

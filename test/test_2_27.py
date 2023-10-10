@@ -1,4 +1,4 @@
-from Ejercicios_DAW_Python.Primeros_ejercicios.src.Ej_2_27 import calculadora_producto
+from ..Ej_2_27 import calculadora_producto
 
 
 def test_calculadora_producto():

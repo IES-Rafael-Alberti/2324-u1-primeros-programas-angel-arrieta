@@ -1,4 +1,4 @@
-from Ejercicios_DAW_Python.Primeros_ejercicios.src.Ej_2_3 import cuentas
+from ..Ej_2_3 import cuentas
 
 
 def test_cuentas():

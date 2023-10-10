@@ -1,4 +1,4 @@
-from Ejercicios_DAW_Python.Primeros_ejercicios.src.Ej_2_15 import intereses
+from ..src.Ej_2_15 import intereses
 
 
 def test_intereses():

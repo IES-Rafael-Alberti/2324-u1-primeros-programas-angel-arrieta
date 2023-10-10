@@ -1,4 +1,4 @@
-from Ejercicios_DAW_Python.Primeros_ejercicios.src.Ej_2_7 import sumar
+from ..src.Ej_2_7 import sumar
 
 
 def test_sumar():

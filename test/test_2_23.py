@@ -1,4 +1,4 @@
-from Ejercicios_DAW_Python.Primeros_ejercicios.src.Ej_2_23 import cambio_dominio
+from ..src.Ej_2_23 import cambio_dominio
 
 
 def test_cambio_dominio():

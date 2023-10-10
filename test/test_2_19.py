@@ -1,4 +1,4 @@
-from Ejercicios_DAW_Python.Primeros_ejercicios.src.Ej_2_19 import contar
+from ..src.Ej_2_19 import contar
 
 
 def test_contar():

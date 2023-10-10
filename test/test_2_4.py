@@ -1,4 +1,4 @@
-from Ejercicios_DAW_Python.Primeros_ejercicios.src.Ej_2_4 import conv_a_Fahrenheit
+from ..src.Ej_2_4 import conv_a_Fahrenheit
 
 
 def test_conv_a_Fahrenheit():
