@@ -1,6 +1,6 @@
 def contar(nombre):
-    return f"Tiene {len(nombre)} letras"
+    return len(nombre)
 
 
 if __name__ == "__main__":
-    print(contar(str(input("¿Cúal es tu nombre?\t"))))
+    print(f"Tiene {contar(str(input('¿Cúal es tu nombre? ')))} letras")

@@ -1,7 +1,8 @@
 def desglose(precio):
     unidades = round(precio, 2)//1
-    return f"El artículo vale {int(unidades)} euros y {int((precio-unidades)*100)} centimos"
+    return int(unidades), int((precio-unidades)*100)
 
 
 if __name__ == "__main__":
-    print(desglose(float(input("Introduzca el precio de un producto: "))))
+    unidades, centimos = desglose(float(input("Introduzca el precio de un producto: ")))
+    print(f"El artículo vale {unidades} euros y {centimos} centimos")

@@ -1,5 +1,5 @@
 def mayusculizar(frase, letra):
-    return f"{frase.replace(letra.lower(),letra.upper())}"
+    return frase.replace(letra.lower(),letra.upper())
 
 
 if __name__ == "__main__":

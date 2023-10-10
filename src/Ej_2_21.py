@@ -1,5 +1,5 @@
 def invertir(frase):
-    return f"{frase[::-1]}"
+    return frase[::-1]
 
 
 if __name__ == "__main__":

@@ -1,6 +1,7 @@
 def cambio_dominio(correo):
-    correo = correo.split('@', 1)[0]
-    return correo + "@ceu.es"
+    direccion = correo.split('@', 1)[0]
+    nuevo_correo = direccion + "@ceu.es"
+    return nuevo_correo
 
 
 if __name__ == "__main__":

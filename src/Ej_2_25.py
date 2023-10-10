@@ -5,8 +5,9 @@ def fechado(fecha):
     lista_meses = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre",
                 "noviembre", "diciembre"]
     mes_escrito = lista_meses[mes]
-    return f"Usted nacio el {dia} de {mes_escrito} del año {ano}"
+    return dia, mes_escrito, ano
 
 
 if __name__ == "__main__":
-    print(fechado(str(input("Introduzca su fecha de nacimiento (formato dd/mm/aaaa)\n"))))
+    dia, mes_escrito, ano = fechado(str(input("Introduzca su fecha de nacimiento (formato dd/mm/aaaa)\n")))
+    print(f"Usted nacio el {dia} de {mes_escrito} del año {ano}")
